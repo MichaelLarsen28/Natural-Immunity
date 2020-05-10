@@ -1,4 +1,4 @@
-(function( $ ) {
+/*(function( $ ) {
 $(function(){
     $("#sideMenu a").bind("click", function(){
         $("#sideMenu a").removeClass("clicked"); // Remove all highlights
@@ -14,3 +14,4 @@ $(document).ready(function() {
     $("#sideMenu a i").slice(0,1,2,3,4,5,6).css({"color": "rgba(44, 62, 80, 1)"});
 });
 })(jQuery);
+*/
