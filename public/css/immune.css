@@ -8,46 +8,49 @@ body{
 }
 
 #sideMenu{
-  background: white;
-  width: 14%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-image:url(../img/leaves.jpg);
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.6);
+  background-position:center;
+  display: inline-block;
 }
 ul {
-  top: 150px;
+  top: 10.5%;
   position: absolute;
+  left: 11.5%;
+  display: inline-block;
 }
 
 #sideMenu > img{
-   display:block;
-   width: 100%;
-   position: relative;
-   top: -10px;
+   width: 12%;
+   margin-top: 0.4%;
+   margin-left: 0.3%;
+}
+#sideMenu > ul > .link {
+  display: inline-block;
 }
 
 ul > a{
-  display: block;
-  position: relative;
-  left: -40px;
+  display: inline-block;
   color: rgba(44, 62, 80, 1);
   text-decoration: none;
-  padding: 15px;
   transition: all 0.3s ease-in-out;
 }
 
 #sideMenu a:hover {
-  background: rgba(228, 241, 254, 1);
+  background: white;
+  width: 80%;
   border-left: 5px solid rgba(44, 62, 80, 1);
-  padding: 15px;
-  width: 280px;
+  padding: 1.2%;
 }
 
 #sideMenu a.clicked {
-  background: rgba(228, 241, 254, 1);
+  background: white;
   border-left: 5px solid rgba(44, 62, 80, 1);
-  padding: 15px 15px 15px 25px;
-  width: 280px;
+  padding: 1.2%;
+  width: 80%;
 }
 
 i {
@@ -69,35 +72,30 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
 }
 
 #dashboardArea {
-  margin-left: 280px;
-  padding: 10px;
+  padding-left: 0.1%;
+  padding-right: 1%;
   height: 135px;
-  background-image:url(../img/leaves.jpg);
-  background-blend-mode: lighten;
-  background-color: rgba(255,255,255,0.6);
-  background-position:center;
+  width: 100%;
 }
-
-#dashboardArea > img {
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-  opacity: 0.3;
-  z-index: -1;
-}
-
 
 .heading > h1 {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   margin: 10px;
+  left: 13%;
+  top: 10px;
+  position: absolute;
 }
 
 .heading > p {
   color: black;
-  font-size: 14px;
-  margin: 10px;
+  font-size: 16px;
+  margin-top: 1.3%;
+  margin-left: 0.65%;
+  left: 13%;
+  top: 50px;
+  position: absolute;
   display: inline-block;
 }
 
