@@ -23,12 +23,6 @@ ul {
   display: inline-block;
 }
 
-#sideMenu > img{
-   width: 12%;
-   height: 16%;
-   margin-top: 0.4%;
-   margin-left: 0.3%;
-}
 #sideMenu > ul > .link {
   display: inline-block;
 }
@@ -83,10 +77,9 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
   color: black;
   font-size: 1.5vw;
   font-weight: 400;
-  margin: 10px;
   left: 13%;
+  margin-left: 0.65%;
   top: 10px;
-  position: absolute;
 }
 
 .heading > p {
@@ -96,7 +89,6 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
   margin-left: 0.65%;
   left: 13%;
   top: 50px;
-  position: absolute;
   display: inline-block;
 }
 
