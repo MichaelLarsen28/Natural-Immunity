@@ -12,12 +12,38 @@ body{
 }
 
 ul > .link1 {
-  display: inline-block;
-  margin-left: 14%;
+  margin-left: 13.2%;
   margin-right: 1%;
   background: white;
   border-bottom: 3px solid rgba(82, 179, 217, 1);
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    ul > .link1 {
+      margin-left: 14%;
+      margin-right: 1%;
+      background: white;
+      border-bottom: 3px solid rgba(82, 179, 217, 1);
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+    ul > .link1 {
+      margin-left: 9.2%;
+      margin-right: 1%;
+      background: white;
+      border-bottom: 3px solid rgba(82, 179, 217, 1);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #sideMenu > .heading > img {
+         min-width: 70%;
+         margin-bottom: -4%;
+    }
+}
+
 
  ul > .link1:hover {
   background: white;
@@ -57,7 +83,7 @@ ul > a{
 }
 
 #sideMenu > .heading > img {
-  width: 35%;
+  width: 50%;
   padding-left: 15%;
 }
 
