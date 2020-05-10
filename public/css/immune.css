@@ -1,0 +1,102 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+  font-family: 'Assistant';
+  background: white;
+}
+
+#sideMenu{
+  background: white;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+ul {
+  top: 150px;
+  position: absolute;
+}
+
+#sideMenu > img{
+   display:block;
+   width: 100%;
+   position: relative;
+   top: -10px;
+}
+
+ul > a{
+  display: block;
+  position: relative;
+  left: -40px;
+  color: rgba(44, 62, 80, 1);
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+#sideMenu a:hover {
+  background: rgba(228, 241, 254, 1);
+  border-left: 5px solid rgba(44, 62, 80, 1);
+  padding: 15px;
+  width: 280px;
+}
+
+#sideMenu a.clicked {
+  background: rgba(228, 241, 254, 1);
+  border-left: 5px solid rgba(44, 62, 80, 1);
+  padding: 15px 15px 15px 25px;
+  width: 280px;
+}
+
+i {
+  color: rgba(44, 62, 80, 1);
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  display: inline-block;
+  width: 20px;
+  position: relative;
+  top: 2px;
+}
+
+#sideMenu a.clicked > i{
+color: rgba(44, 62, 80, 1); /* Icon colour on click */
+}
+
+#sideMenu a:hover > i{
+color: rgba(44, 62, 80, 1); /* Icon colour on hover */
+}
+
+#dashboardArea {
+  margin-left: 280px;
+  padding: 10px;
+  height: 135px;
+  background-image:url(../img/leaves.jpg);
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.6);
+  background-position:center;
+}
+
+#dashboardArea > img {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+
+.heading > h1 {
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.heading > p {
+  color: black;
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+}
