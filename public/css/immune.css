@@ -25,6 +25,7 @@ ul {
 
 #sideMenu > img{
    width: 12%;
+   height: 16%;
    margin-top: 0.4%;
    margin-left: 0.3%;
 }
@@ -80,7 +81,7 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
 
 .heading > h1 {
   color: black;
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 400;
   margin: 10px;
   left: 13%;
@@ -90,7 +91,7 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
 
 .heading > p {
   color: black;
-  font-size: 16px;
+  font-size: 0.8vw;
   margin-top: 1.3%;
   margin-left: 0.65%;
   left: 13%;
@@ -100,7 +101,7 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
 }
 
 .slides {
-  overflow: hidden;
+display: inline-block;
 }
 
 .slides > .slide {
@@ -108,13 +109,18 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
   border-radius: 5px;
   padding: 0 15px;
   top: 180px;
-  display: block;
-  height: 40%;
+  display: inline-block;
+  height: 30vh;
   width: 100%;
   margin-left: 15px;
   margin-top: 60px;
   margin-bottom: 30px;
   padding: 10px;
+}
+.slides > .slide > img {
+  width: 5%;
+  display: inline-block;
+  float: left;
 }
 
 .slides > .slide-below1 {
@@ -142,8 +148,25 @@ color: rgba(44, 62, 80, 1); /* Icon colour on hover */
   padding: 10px;
 }
 
+.slides > .slide > h1, .slides > .slide-below1 > h1, .slides > .slide-below2 > h1 {
+  color: black;
+  font-size: 1.2vw;
+  margin-top: 0px;
+}
+
+.slides > .slide > h2, .slides > .slide-below1 > h2, .slides > .slide-below2 > h2 {
+  color: black;
+  font-size: 0.9vw;
+  margin-top: 0px;
+}
+
 .slides > .slide > p, .slides > .slide-below1 > p, .slides > .slide-below2 > p {
   color: black;
-  font-size: 14px;
+  font-size: 0.9vw;
+  margin-left: 6%;
+}
+
+.slides > .slide > a, .slides > .slide-below1 > a, .slides > .slide-below2 > a {
+  font-size: 0.9vw;
   margin-top: 0px;
 }
