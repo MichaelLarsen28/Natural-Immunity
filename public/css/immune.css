@@ -39,9 +39,18 @@ ul > .link1 {
 
 @media screen and (max-width: 750px) {
     #sideMenu > .heading > img {
-         min-width: 70%;
+         min-width: 60%;
          margin-bottom: -4%;
     }
+}
+
+@media screen and (min-width: 1500px) {
+      ul > .link1 {
+        margin-left: 14.5%;
+        margin-right: 1%;
+        background: white;
+        border-bottom: 3px solid rgba(82, 179, 217, 1);
+      }
 }
 
 
@@ -83,19 +92,92 @@ ul > a{
 }
 
 #sideMenu > .heading > img {
-  width: 50%;
+  width: 40%;
   padding-left: 15%;
 }
 
-#sideMenu > .heading > h1 {
+h1 {
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.0vw;
   display: block;
   font-weight: 400;
   left: 13%;
   padding-left: 15.2%;
   margin-left: 0.65%;
   margin-top: 2%;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    margin-left: 15.8%;
+    margin-right: 15.8%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.News > .left1{
+  display: inline-block;
+  width: 16%;
+  margin-left: 15.8%;
+}
+
+.News > .left2, .News > .left3, .News > .left4 {
+  display: inline-block;
+  width: 16%;
+}
+
+.News > .left1 > a, .News > .left2 > a , .News > .left3 > a , .News > .left4 > a  {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.News > .left1 > a > img {
+  width: 100%;
+  padding-top: 0.8%;
+  display: inline-block;
+}
+
+.News > .left1 > a > p {
+  width: 100%;
+  font-size: 0.8vw;
+}
+
+.News > .left2 > a > img {
+  width: 100%;
+  display: inline-block;
+  margin-left: 9%;
+}
+
+.News > .left2 > a > p {
+  width: 100%;
+  margin-left: 9%;
+  font-size: 0.8vw;
+}
+
+.News > .left3 > a > img {
+  width: 100%;
+  display: inline-block;
+  margin-left: 16%;
+}
+
+.News > .left3 > a > p {
+  width: 100%;
+  margin-left: 16%;
+  font-size: 0.8vw;
+}
+
+.News > .left4 > a > img {
+  width: 100%;
+  display: inline-block;
+  margin-left: 23%;
+}
+
+.News > .left4 > a > p {
+  width: 100%;
+  font-size: 0.8vw;
+  margin-left: 23%;
 }
 
 h3 {
