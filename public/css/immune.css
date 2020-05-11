@@ -53,6 +53,18 @@ ul > .link1 {
       }
 }
 
+@media screen and (max-width: 700px) {
+
+  .slides > .slide {
+    background: white;
+    opacity: 0.9;
+    padding: 15px 15px;
+    min-height: 100%;
+    margin-top: 0.3%;
+  }
+
+}
+
 
  ul > .link1:hover {
   background: white;
