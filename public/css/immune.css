@@ -236,13 +236,13 @@ display: inline-block;
 @media only screen and (max-width: 700px) {
 
   #sideMenu > .heading > img {
-       min-width: 55%;
+       min-width: 70%;
        margin-bottom: -4%;
        padding-left: 0%;
   }
 
     ul > .link1 {
-      margin-left: -8%;
+      margin-left: -10%;
       margin-right: 1%;
       background: white;
       border-bottom: 3px solid rgba(82, 179, 217, 1);
@@ -268,7 +268,7 @@ display: inline-block;
 
     ul > a{
       display: inline-block;
-      font-size: 0.8vw;
+      font-size: 1.5vw;
       color: rgba(44, 62, 80, 1);
       text-decoration: none;
       transition: all 0.3s ease-in-out;
@@ -288,7 +288,7 @@ display: inline-block;
 
     h1 {
       color: black;
-      font-size: 1.0vw;
+      font-size: 1.6vw;
       display: block;
       font-weight: 400;
       left: 13%;
@@ -308,12 +308,12 @@ display: inline-block;
 
     .News > .left1{
       margin-left: 0%;
-      width: 23%;
+      width: 47%;
     }
 
     .News > .left2, .News > .left3, .News > .left4 {
       display: inline-block;
-      width: 23%;
+      width: 47%;
     }
 
     .News > .left1 > a, .News > .left2 > a , .News > .left3 > a , .News > .left4 > a  {
@@ -330,43 +330,43 @@ display: inline-block;
 
     .News > .left1 > a > p {
       width: 100%;
-      font-size: 0.8vw;
+      font-size: 1vw;
     }
 
     .News > .left2 > a > img {
       width: 100%;
       display: inline-block;
-      margin-left: 9%;
+      margin-left: 8%;
     }
 
     .News > .left2 > a > p {
       width: 100%;
       margin-left: 9%;
-      font-size: 0.8vw;
+      font-size: 1vw;
     }
 
     .News > .left3 > a > img {
       width: 100%;
       display: inline-block;
-      margin-left: 16%;
+      margin-left: 0%;
     }
 
     .News > .left3 > a > p {
       width: 100%;
-      margin-left: 16%;
-      font-size: 0.8vw;
+      margin-left: 0%;
+      font-size: 1vw;
     }
 
     .News > .left4 > a > img {
       width: 100%;
       display: inline-block;
-      margin-left: 23%;
+      margin-left: 8%;
     }
 
     .News > .left4 > a > p {
       width: 100%;
-      font-size: 0.8vw;
-      margin-left: 23%;
+      font-size: 1vw;
+      margin-left: 8%;
     }
 
   .slides > .slide {
