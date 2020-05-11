@@ -5,6 +5,7 @@ box-sizing: border-box;
 body{
   font-family: 'Arvo';
   background: white;
+  padding-bottom: 5%;
 }
 
 #sideMenu {
