@@ -6,6 +6,18 @@ $(function(){
     });
 });
 
+document.getElementById("shroomImg").onclick = function() {
+    document.querySelector(".slides").style.display = "inline-block";
+    document.querySelector("#shroom").style.display = "none";
+};
+
+$(function(){
+  $(".slides .slide .backBtn").click(function() {
+    document.querySelector(".slides").style.display = "none";
+    document.querySelector("#shroom").style.display = "inline-block";
+    });
+});
+
 //Home highlighted when the PatientDashbaord page is loaded
 /*
 $(document).ready(function() {
