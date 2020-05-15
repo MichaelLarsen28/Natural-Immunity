@@ -6,15 +6,17 @@ $(function(){
     });
 });
 
-document.getElementById("shroomImg").onclick = function() {
+document.querySelector("#shroom u").onclick = function() {
     document.querySelector(".slides").style.display = "inline-block";
     document.querySelector("#shroom").style.display = "none";
+    document.querySelector("#dashboardArea .backBtn").style.display = "inline-block";
 };
 
 $(function(){
-  $(".slides .slide .backBtn").click(function() {
+  $("#dashboardArea .backBtn").click(function() {
     document.querySelector(".slides").style.display = "none";
     document.querySelector("#shroom").style.display = "inline-block";
+    document.querySelector("#dashboardArea .backBtn").style.display = "none";
     });
 });
 
